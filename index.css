@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/* box1 */
+#fullpage .box1 {
+    width: 100%;
+    height: 100%;
+}
+
+/* box2 */
+#fullpage .box2 {
+    background: url("images/bg.jpg") no-repeat 100% 60% / cover;
+    color: #fff;
+    position: relative;
+}
+#fullpage .box2 p {
+    width: 40%;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1.4vw;
+}
+#fullpage .box2 a {
+    font-size: 1.4vw;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 1.6vw 3.6vw;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fullpage .box2 a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* box3 */
+#fullpage .box3 .work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5vw;
+}
+#fullpage .box3 .work .box {
+    width: 25vw;
+    height: 21vw;
+    background-color: #ddd;
+}
+#fullpage .box3 .work .box:hover {
+    background-size: 140%;
+    transition: 0.3s;
+}
+#fullpage .box3 .work .box1 {
+    background: url("images/work01.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+#fullpage .box3 .work .box2 {
+    background: url("images/work02.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+#fullpage .box3 .work .box3 {
+    background: url("images/work03.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+#fullpage .box3 .work .box4 {
+    background: url("images/work04.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+#fullpage .box3 .work .box5 {
+    background: url("images/work05.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+#fullpage .box3 .work .box6 {
+    background: url("images/work06.jpg") no-repeat center / cover;
+    background-size: 130%;
+}
+#fullpage .box3 .work .box7 {
+    background: url("images/work07.png") no-repeat center / cover;
+    background-size: 130%;
+}
+#fullpage .box3 .work .box8 {
+    background: url("images/work08.png") no-repeat center / cover;
+    background-size: 130%;
+}
+
+/* box4 */
+#fullpage .box4 .artist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5vw;
+}
+#fullpage .box4 .artist .box {
+    width: 25vw;
+    height: 21vw;
+    background-color: #ddd;
+}
+#fullpage .box4 .artist .box:hover {
+    background-size: 140%;
+    transition: 0.3s;
+}
+#fullpage .box4 .artist .box1 {
+    background: url("images/artist01.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+#fullpage .box4 .artist .box2 {
+    background: url("images/artist02.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+#fullpage .box4 .artist .box3 {
+    background: url("images/artist03.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+#fullpage .box4 .artist .box4 {
+    background: url("images/artist04.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+#fullpage .box4 .artist .box5 {
+    background: url("images/artist05.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+#fullpage .box4 .artist .box6 {
+    background: url("images/artist06.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+#fullpage .box4 .artist .box7 {
+    background: url("images/artist07.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+#fullpage .box4 .artist .box8 {
+    background: url("images/artist08.jpg") no-repeat center 20% / cover;
+    background-size: 130%;
+}
+
+/* footer */
+#fullpage footer {
+    padding-top: 5vw;
+    height: 10vw;
+    text-align: left;
+    padding-left: 8vw;
+    border-top: 1px solid #000;
+    margin-top: 0;
+    position: relative;
+}
+#fullpage footer .sns {
+    position: absolute;
+    right: 8vw;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: 4vw;
+}
+#fullpage footer .sns a:first-child {
+    width: 2.8vw;
+    height: 2.8vw;
+    background: url("images/instagram.png") no-repeat 100% center / cover;
+}
+#fullpage footer .sns a:last-child {
+    width: 2.8vw;
+    height: 2.8vw;
+    margin-left: 1.0vw;
+    background: url("images/facebook.png") no-repeat 100% center / cover;
+}
+
+/* swiper */
+#fullpage .mainSlide {
+    width: 100%;
+    height: 100%;
+}
+#fullpage .mainSlide .swiper-slide {
+    background: no-repeat 100% 40% / cover;
+}
+#fullpage .mainSlide .img1 {
+    background-image: url("images/banner.jpg");
+}
+#fullpage .mainSlide .img2 {
+    background-image: url("images/work02.jpg");
+}
+#fullpage .mainSlide .img3 {
+    background-image: url("images/work03.jpg");
+}
+#fullpage .mainSlide .img4 {
+    background-image: url("images/work04.jpg");
+}
+
+/* pagination */
+#fullpage .swiper-pagination-bullet {
+    display: none;
+}
+#fullpage .swiper-button-next,
+#fullpage .swiper-button-prev {
+    display: none;
+}

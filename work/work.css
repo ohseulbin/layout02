@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    margin: 0 8vw;
+}
+main span {
+    font-size: 1.8vw;
+}
+main h1 {
+    text-transform: uppercase;
+    font-size: 3.4vw;
+}
+main .work {
+    padding-top: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+main .box {
+    width: 24vw;
+    height: 34vw;
+    margin-bottom: 8vw;
+    position: relative;
+}
+
+main .box .img1 {
+    height: 77%;
+    width: 100%;
+}
+main .box .img1 {
+    height: 77%;
+    width: 100%;
+}
+main .box span {
+    position: absolute;
+    bottom: 2.4vw;
+    left: 0;
+    font-weight: bold;
+}
+
+main .box1 .img1 {
+    background: url("images/work01.jpg") no-repeat center 0 / cover;
+}
+main .box1 .img1:hover {
+    background: url("images/artist01.jpg") no-repeat center 0 / cover;
+    transition: 0.5s;
+}
+
+main .box2 .img1 {
+    background: url("images/work02.jpg") no-repeat center 0 / cover;
+}
+main .box2 .img1:hover {
+    background: url("images/artist02.jpg") no-repeat center 0 / cover;
+    transition: 0.5s;
+}
+
+main .box3 .img1 {
+    background: url("images/work03.jpg") no-repeat center 0 / cover;
+}
+main .box3 .img1:hover {
+    background: url("images/artist03.jpg") no-repeat center 0 / cover;
+    transition: 0.5s;
+}
+
+main .box4 .img1 {
+    background: url("images/work04.jpg") no-repeat center 0 / cover;
+}
+main .box4 .img1:hover {
+    background: url("images/artist04.jpg") no-repeat center 0 / cover;
+    transition: 0.5s;
+}
+
+main .box5 .img1 {
+    background: url("images/work05.jpg") no-repeat center 0 / cover;
+}
+main .box5 .img1:hover {
+    background: url("images/artist05.jpg") no-repeat center 0 / cover;
+    transition: 0.5s;
+}
+
+main .box6 .img1 {
+    background: url("images/work06.jpg") no-repeat center 0 / cover;
+}
+main .box6 .img1:hover {
+    background: url("images/artist06.jpg") no-repeat center 0 / cover;
+    transition: 0.5s;
+}
